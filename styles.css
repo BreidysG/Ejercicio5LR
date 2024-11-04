@@ -71,6 +71,28 @@ body #timer {
 .hidden {
     display: none;
 }
+@media (max-width: 700px) {
+    #container {
+        width: 90%; /* Ajusta el contenedor a un 90% de ancho */
+        padding: 15px; /* Reduce el padding */
+    }
+
+    #timer {
+        font-size: 20px; /* Ajusta el tamaño del temporizador */
+    }
+
+    .barras {
+        height: 50vh; /* Reduce la altura para pantallas móviles */
+    }
+
+    .barra {
+        width: 8px; /* Ajusta el ancho de las barras */
+    }
+
+    .number {
+        font-size: 16px; /* Ajusta el tamaño de fuente de los números en las barras */
+    }
+}
 
 
 
